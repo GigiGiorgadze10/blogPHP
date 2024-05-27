@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+.login{
+    width: 300px;
+    border: solid 1px gray;
+    margin: auto;
+    padding: 10px;
+}
+
+.login div{
+    margin:20px;
+}
+
+main {
+    width: 80%;
+    border: solid 1px gray;
+    display: flex;
+    margin: auto;
+    min-height: 100vh;
+}
+
+main nav{
+    border-right: solid 2px gray;
+    width: 20%;
+    background-color: beige;
+}
+
+main .content{
+    background-color: aquamarine;
+    width: 80%;
+}
+
+.info{
+    margin-top: 20px;
+    font-weight: bold;
+    border-top: solid 1px gray;
+    padding: 10px;
+}
+
+.form{
+    padding: 20px;
+}
+
+.form div{
+    margin: 10px;
+}
+
+.form label {
+    display: block;
+}
+
+.form textarea{
+    width: 400px;
+    height: 200px;
+}
+
+.content{
+    padding: 10px;
+}
+
+.categories table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.categories table td, th {
+    border: solid 1px gray;
+    padding: 7px;
+}
